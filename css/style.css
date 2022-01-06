@@ -1,0 +1,209 @@
+
+*{
+    font-family: 'Poppins';
+    margin:0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.navbar{
+    background: #a5b9f165;
+}
+.nav-item{
+    margin-left: 15px;
+    transition:0.9s ease;
+}
+
+.nav-item:hover{
+    transform:scale(1.4);
+    background:#3a6cf4;
+    border-radius: 10px;
+
+}
+
+.collapse a{
+    color:#3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+
+}
+
+#home_page{
+    width: 100%;
+    min-height: 100vh;
+    background-image:url("../images/WhatsApp\ Image\ 2021-12-31\ at\ 3.56.56\ AM.jpeg") ;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.bio h2{
+    color:white;
+    font-size: 1.4em ;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.bio h1{
+    color: #3a6cf4;
+    font-weight: 600;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+.bio h3{
+    color: white;
+    font-weight: 700;
+    font-size: 1.6em;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+.btn {
+
+    border-radius: 15px;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding :0.93em 2.187em;
+    transition:0.7s ease;
+}
+.btn:hover{
+    background-color:#012a83 ;
+    transform: scale(1.1);
+}
+.social-icons a{
+    font-size: 1.5em;
+
+}
+.content{
+    justify-content: center;
+     flex-wrap: wrap;
+}
+.card{
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    align-items: center;
+    padding: 25px;
+    margin: 15px;
+    transition:0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.info{
+   text-align: center;
+
+}
+.info h1{
+    color: #3a6cf4;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.title{
+    color: #3a6cf4;
+    font-size: 2.5em;
+    font-weight: 900;
+    margin-top: 30px;
+    justify-content: center;
+}
+.icon{
+    font-size: 7em;
+    text-align: center;
+    color:#3a6cf4;
+}
+
+#projects{
+    background: black;
+    padding-bottom: 20px;
+    border-radius: 7px;
+}
+
+.pro-card{
+    background-color: aliceblue;
+    border:1px solid white;
+    min-height: 14em;
+    border-radius: 10px;
+    width: 22em;
+    margin: 20px;
+    transition:0.7s ease;
+}
+.pro-card:hover {
+    transform: scale(1.1);
+}
+
+.pro-card:hover .image{
+    opacity: 0.7;
+
+}
+.pro-category{
+    font-size: 0.8em;
+    color:black;
+}
+.pro-title{
+  justify-content: space-between; 
+  text-transform: uppercase;  
+  font-weight: 800;
+  margin-top: 10px;
+}
+.pro-title a{
+    text-decoration: none;
+    color:#3a6cf4
+}
+.pro-title a:hover{
+    color:crimson
+}
+#contact .card h1,p{
+    box-sizing:border-box;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    transition: 0.7s ease;
+}
+#contact .card p{
+text-decoration: underline;
+}
+#contact .card h1,p:hover{
+    transform: scale(1.2);
+
+}
+.footer {
+    background-color: #000016;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.footer-title span {
+    color: #3a6cf4;
+}
+
+.footer .social-icons a{
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+}
+
+#About{
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 7px;
+    background: linear-gradient(#e66465, #9198e5);
+    color: #fff;
+    width: 80%;
+   margin-left: 90px;
+}
+.ame{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    
+
+}
+
+
