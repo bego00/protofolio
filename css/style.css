@@ -56,16 +56,21 @@
     letter-spacing: 1px;
 }
 .btn {
-
+    text-transform: uppercase;
+    color: #fff;
+    margin: 10px;
     border-radius: 15px;
     letter-spacing: 1px;
     font-size: 1.1em;
     font-weight: 600;
     padding :0.93em 2.187em;
     transition:0.7s ease;
+  
 }
 .btn:hover{
-    background-color:#012a83 ;
+    background-image: linear-gradient(#fff,#fff) , radial-gradient(circle at top left,#4458dc,#854fee);
+    border: double 2px transparent;
+    color: #222;
     transform: scale(1.1);
 }
 .social-icons a{
